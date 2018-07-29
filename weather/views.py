@@ -9,7 +9,7 @@ def index(request):
     key = '806fc11050d77b8f86428810573a0b2f'
     url = 'http://api.openweathermap.org/data/2.5/weather?q={}&units=imperial&appid=' + key
 
-    city = 'Tongi'
+    #city = 'Tongi'
 
     cities = City.objects.all()
 
